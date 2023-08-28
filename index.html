@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Crea y organiza tu lista de tareas</title>
+</head>
+
+<body>
+    <main class="mainContainer">
+        <h1>Lista de tareas </h1>
+
+        <form action="#" class="form__addTxtUser">
+                <input type="text" name="" id="taskName" placeholder="Añadir mi tarea" autofocus>
+                <input type="text" name="" id="taskDescription" placeholder="Añadir descripción">
+                <select id="taskCompleted"  class="none noneDisplay" name="">
+                    <option disabled selected>¿Realizada?</option>
+                    <option value="true">si</option>
+                    <option value="false">no</option>
+                </select>
+                <input type="text" name="" id="taskCategorie" class="noneDisplay"  placeholder="Añadir categoria" >
+                <select id="taskPrioriti"  class="noneDisplay" name="">
+                    <option disabled selected>Prioridad</option>
+                    <option>Alta</option>
+                    <option>Media</option>
+                    <option>Baja</option>
+                </select>
+                <select id="taskWeight"  class="noneDisplay" name="">
+                    <option disabled selected>Peso de la tarea</option>
+                    <option>L</option>
+                    <option>M</option>
+                    <option>X</option>
+                    <option>XS</option>
+                </select>
+                <input type="date" name="" id="taskCreationDate" class="none display" placeholder="Fecha de creación">
+                <input type="date" name="" id="taskDeliveryDate" class="display" placeholder="Fecha de entrega">
+
+                <button type="submit" class="form__addTaskBtn"><i class="fa-solid fa-circle-plus"></i></button>
+        </form>
+
+
+        <div class="tasksListContainer">
+            <ul class="ulShowTasksList">
+
+            </ul>
+        </div>
+    </main>
+
+
+    <!-- < type = "module" src="./src/events/loadTask.js""></script> -->
+
+    <script src="/scripts/main.js"></script>
+    <script src="/scripts/services/get.js"></script>
+    <script src="/scripts/services/post.js"></script>
+    <script src="/scripts/services/delete.js"></script>
+    <script src="/scripts/funtions/completedTask.js"></script>
+    <script src="/scripts/services/patch.js"></script>
+    <script src="/scripts/funtions/date.js"></script>
+    <script src="/scripts/funtions/filters.js"></script>
+    <script src="/scripts/funtions/printStyles.js"></script>
+
+</body>
+
+</html>
