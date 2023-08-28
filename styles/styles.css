@@ -1,0 +1,93 @@
+.form__addTxtUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+}
+.deleteBtn {
+    border-radius: 50%;
+    background-color: red;
+}
+.deleteBtn:hover {
+    border-radius: 50%;
+    background-color: rgb(133, 133, 133);
+}
+
+.addBtn {
+    border-radius: 50%;
+    background-color: green;
+}
+.addBtn:hover {
+    background-color: rgb(133, 133, 133);
+}
+
+li {
+    list-style-type: none;
+}
+
+.display {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.marginRight-1{
+    margin-right: 1em;
+}
+
+.firstColor{
+    color: #511f4d;
+}
+
+.ulShowTasksList__li--icons i {
+    margin: 0 0.3em;
+}
+.ulShowTasksList__li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+.ulShowTasksList__li div{
+    margin-right: 0.8%;
+    line-height: 30px;
+}
+
+.ulShowTasksList__li--txt span{
+    padding: 0.2em 0.5em;
+    border: 1px solid #511f4d;
+    border-radius: 5px;
+}
+.ulShowTasksList__li--icons{
+    display: flex;
+    flex-wrap: nowrap;  
+    flex-direction: row;
+    margin: 0 0.1em;
+}
+
+.modal{
+  transform: translateY(80px);
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;  
+    flex-direction: row;
+    margin: 0 0.1em;
+    padding: 10px;
+    border: 2px solid purple;
+    background-color: hsla(305, 45%, 22%, 0.1);
+    width: 80vw;
+    margin: auto;
+}
+
+.edit-form {
+    margin: 20px;
+}
