@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Tarea de prueba 1",
+      "description": "Descripción de la tarea 1",
+      "completed": false,
+      "categorie": "comprar",
+      "prioriti": "Alta",
+      "weight": "M",
+      "creationDate": "21/8/2023",
+      "deliverDate": "21/8/2023"
+    },
+    {
+      "id": 2,
+      "name": "Tarea de prueba 2",
+      "description": "Descripción de la tarea 2",
+      "completed": false,
+      "categorie": "llamar",
+      "prioriti": "Baja",
+      "weight": "L",
+      "creationDate": "21/8/2023",
+      "deliverDate": "21/8/2023"
+    },
+    {
+      "id": 3,
+      "name": "tarea PRUEBA 3",
+      "description": "desc tarea 3",
+      "completed": true,
+      "categorie": "categoriasaaads",
+      "prioriti": "Alta",
+      "weight": "L",
+      "creationDate": "21/8/2023",
+      "deliverDate": "21/8/2023"
+    }
+  ]
+}
