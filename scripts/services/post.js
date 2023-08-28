@@ -21,7 +21,7 @@ async function inputsTextUser() {
     categorie: document.getElementById("taskCategorie").value,
     prioriti: document.getElementById("taskPrioriti").value,
     weight: document.getElementById("taskWeight").value,
-    reationDate: temp,
+    creationDate: temp,
     deliverDate: document.getElementById("taskDeliveryDate").value
   };
   addTask(TAREA);
